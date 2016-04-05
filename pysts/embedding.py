@@ -71,7 +71,7 @@ class Embedder(object):
 
 class GloVe(Embedder):
     """ A GloVe dictionary and the associated N-dimensional vector space """
-    def __init__(self, N=300, glovepath='glove.6B.%dd.txt'):
+    def __init__(self, N=300, glovepath='/Users/benjaminhess/investment/techtank/dyMN/data/glove.6B.%dd.txt'):
         """ Load GloVe dictionary from the standard distributed text file.
 
         Glovepath should contain %d, which is substituted for the embedding
